@@ -65,6 +65,6 @@ curl -X GET http://localhost:8080/pdfs
 Because of time restraints, Spring boot security is not added yet. It is important to keep the API safe.
 Unit tests are not added yet either.
 
-DELETE and UPDATE requests are not implemented.
+DELETE and PUT requests are not implemented.
 
 Filenames with " " (space) cannot be downloaded with curl as of now, but can be through Postman. 
